@@ -2,7 +2,7 @@
 //email settings
 ini_set('SMTP','smtp.gmail.com');
 ini_set('smtp_port','587');
-    ini_set('verify_peer','true');
+//    ini_set('verify_peer','fqlse');
  
 // check if fields passed are empty
 if(empty($_POST['name'])   ||
@@ -21,7 +21,7 @@ $email_address = $_POST['email'];
 $message = $_POST['message'];
  
 // create email body and send it
-$to = 'nickliliakid3s@gmail.com'; // PUT YOUR EMAIL ADDRESS HERE
+$to = 'nickliliakides@gmail.com'; // PUT YOUR EMAIL ADDRESS HERE
 $email_subject = "Website email from:  $name"; // EDIT THE EMAIL SUBJECT LINE HERE
 $email_body = "You have received a new message from your website's contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
 $headers = "From: $email_address\n";
