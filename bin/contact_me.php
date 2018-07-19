@@ -2,7 +2,7 @@
 //email settings
 ini_set('SMTP','smtp.gmail.com');
 ini_set('smtp_port','465');
-//ini_set('verify_peer','false');
+ini_set('verify_peer','false');
  
 // check if fields passed are empty
 if(empty($_POST['name'])   ||
