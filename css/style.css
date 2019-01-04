@@ -1,16 +1,15 @@
 /* Prevents adjustments of font size after orientation change in IE on Windows phone and in IOS */
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 /* Apply a natural box model layout to all elements */
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 
 /*.clearfix: after {*/
 /*    content: "";*/
@@ -18,33 +17,28 @@ html {
 /*    clear: both;*/
 /*}*/
 
-video {
-    width: 100%;
-}
-
-
 body {
   margin: 0;
-  background: #000; 
+  background: #000;
 }
 
-video { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-/* background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  /* background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;*/
   background-size: cover;
   transition: 1s opacity;
 }
 
-.stopfade { 
-   opacity: .5;
+.stopfade {
+  opacity: 0.5;
 }
 
 /*
@@ -54,261 +48,295 @@ video {
 */
 
 #aboutMe {
-    border: 4px solid darkred;
-    box-shadow: rgba(0,0,0,0.6) 10px 10px 10px;
-    width: 300px;
-/*    margin-right: 300px;*/
-    
-    
-    
+  border: 4px solid darkred;
+  box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 10px;
+  width: 300px;
+  /*    margin-right: 300px;*/
 }
 
-
-
-/*
-media screen and (max-width: 991px) {
-   
-     {
-        vertical-align: middle;
-        margin-top: 30px;
-        margin-bottom: 30px;
-         margin-right: 0;
-        
-    }
-}
-*/
-
-
-
-/*
-@media screen and (max-width: 992px) {
-   
-    .skImg {
-        
-        display: block !important;
-        
-    }
-    
-     #skImg1 {
-    
-    margin-left: 220px;
-    }
-    
-     #skImg2 {
-    
-    margin-left: 287px;
-    }
-    
-     #skImg3 {
-    
-    margin-left: 285px;
-    }
-    
-     #skImg4 {
-    
-    margin-left: 273px;
-    }
-    
-}
-*/
-
-@media screen and (max-width: 768px) {
-   
-
-    
-    .timeline-panel {
-        
-        padding-left: 78px !important;
-        
-    }
-    
-    .flex-container{
-        
-/*
-        display: flex;
-        order: -1;
-*/
-
-    }
-    
-
-    
-/*
-    .skImg {
-        
-        display: block !important;
-        
-    }
-    
-     #skImg1 {
-    
-    margin-left: 125px;
-    }
-    
-     #skImg2 {
-    
-    margin-left: 190px;
-    }
-    
-     #skImg3 {
-    
-    margin-left: 190px;
-    }
-    
-     #skImg4 {
-    
-    margin-left: 180px;
-    }
-*/
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
-@media screen and (max-width: 576px) {
-   
-/*
-    #aboutMe {  
-        
-        margin-top: 30px;
-        margin-bottom: 30px;
-        
-        
-    }
-*/
-    
-    .timeline-panel {
-        
-        padding-left: 100px important;
-    }
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
-.slide   {
-    
-    background-color: white;
-    
-    
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.typping {
+  height: 300px;
+  width: 100%;
+  padding-top: 92px;
+  font-size: 52px;
+  font-weight: 700;
+  /*    margin-bottom: 25px;*/
+  font-family: 'Droid Serif', Arial, sans-serif;
+  text-shadow: 2px 2px #e69c11;
+  text-decoration: none;
+}
+
+.wrap {
+  color: aliceblue;
+}
+
+.popover__title {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: rgb(228, 68, 68);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.popover__wrapper {
+  position: relative;
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  border-radius: 10px;
+  top: 170px;
+  transform: translate(0, 10px);
+  background-color: rgba(28, 119, 199, 0.85);
+  padding: 1.2rem;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.26);
+  width: auto;
+  height: 100px;
+  font-size: 18px;
+}
+
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  right: calc(50% - 10px);
+  top: -8px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #bfbfbf transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+.popover__message {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .popover__content {
+    top: 120px;
+    left: -16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timeline-panel {
+    padding-left: 78px !important;
+  }
+
+  .typping {
+    height: 300px;
+    font-size: 46px;
+  }
+
+  .popover__content {
+    top: 100px;
+    left: -28px;
+  }
+
+  .contact-icon-container {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .contact-icon {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .typping {
+    margin-top: 50px;
+    height: 320px;
+    font-size: 38px;
+  }
+
+  .navbar-brand {
+    font-size: 28px !important;
+  }
+}
+
+.slide {
+  background-color: white;
 }
 
 .text-muted {
-    font-size: 20px;
-    margin-left: 50px;
+  font-size: 20px;
+  margin-left: 50px;
 }
 
 .section-heading {
-    
-    font-family: 'Patua One', cursive;
-    text-shadow: 2px 2px #b8b894;
-    
+  font-family: 'Patua One', cursive;
+  text-shadow: 2px 2px #b8b894;
 }
 
-
-
 .Edu {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .timeline-panel {
-    
-    background-color: rgba(77,81,84,0.8);
-    text-align: center !important;
-    border-radius: 25px;
-    color: lightgoldenrodyellow;
-    padding-top: 10px !important;
-    box-shadow: rgba(0,0,0,0.6) 5px 5px 5px;
+  background-color: rgba(77, 81, 84, 0.8);
+  text-align: center !important;
+  border-radius: 25px;
+  color: lightgoldenrodyellow;
+  padding-top: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.6) 5px 5px 5px;
+  padding-left: 100px important;
 }
 
-    
-
-
 .rotate:hover {
-  transition: 0.70s;
-  -webkit-transition: 0.70s;
-  -moz-transition: 0.70s;
-  -ms-transition: 0.70s;
-  -o-transition: 0.70s;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
-} 
-
-/*
-@media screen and (min-width: 992px) {
-   
-    #skImg1 {
-    
-    margin-left: 10px;
-    }
-    
-     #skImg4 {
-    
-    margin-left: 50px;
-    }
-    
 }
-*/
+
+@media screen and (min-width: 992px) {
+  #aboutMe {
+    margin-right: 300px;
+  }
+
+  .masthead {
+    height: 100vh !important;
+  }
+
+  .intro-text {
+    margin-top: 80px;
+  }
+}
 
 @media screen and (min-width: 768px) {
-   
-    div.intro-text{
-        vertical-align: text-top;
-    }
-    
-}
-
-@media screen and (min-width: 992px) {
-   
-    #aboutMe {
-        
-        
-       margin-right: 300px;
-        
-    }
+  div.intro-text {
+    vertical-align: text-top;
+  }
 }
 
 #contact {
-    
-    color: #fed136 !important;
+  color: #fed136 !important;
 }
 
 #contactIcon {
-    
-    color: #fed136 ;
+  color: #fed136;
 }
 
 .bg-light {
-    
-    background-color: white !important;
-    
+  background-color: white !important;
 }
 
 #phoneMail {
-    
-    font-size: 30px;
+  font-size: 30px;
 }
-    
+
 section#contact {
-    
-    background-color: #1b1d46 !important;
+  background-color: #1b1d46 !important;
 }
 
 section#experience {
-    background-image: url(../images/cube.png);
-    background-position: top;
-    position: relative;
-
-    
+  background-image: url(../images/cube.png);
+  background-position: top;
+  position: relative;
 }
 
-#workExp  {
-    color: #5b5b5b;
+section#skills {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 253, 0.9),
+      rgba(255, 255, 235, 0.9)
+    ),
+    url(../images/react-icons-svg.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+section#portfolio {
+  margin-top: -120px;
+}
 
+.portfolio-link {
+  padding: 8px 8px;
+  background-color: rgba(31, 31, 28, 0.8);
+  border-radius: 6px;
+}
 
+.portfolio-hover {
+  margin: -8px -8px;
+  border-radius: 6px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
 
+#workExp {
+  color: #5b5b5b;
+}
 
+.skills-img {
+  width: 100px;
+  height: 100px;
+}
 
+.skills-img-2 {
+  width: 200px;
+  height: 106px;
+}
 
+.img-cont {
+  margin: 16px 15px;
+}
 
-
-
+.skill-box > h2 {
+  font-size: 1.8rem;
+}

@@ -61,17 +61,23 @@
         </ul>
       </div>
     </nav>
-
+      
     <!-- Header -->
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
             <video  id="bgvid" playsinline autoplay muted loop>
-                    <source src="images/intro.mp4">
-                    </video>
+              <source src="images/intro.mp4">
+            </video>
+            <div class="typewrite typping" data-period="1200" data-type='[ "Hi, I am Nick.", "I am a Web Developer.", "I love JavaScript and React.js.", "I have a huge passion for coding and learning!", "Try me please!!! &#x263A" ]'>
+              <span class="wrap"></span>
+            </div>
+        
+<!--
           <div class="wow zoomInDown intro-lead-in">Hello I'm Nick!</div>
-          <div class="wow flip intro-heading">C# and ASP.NET Developer</div>
-          <a href="#about" class="wow bounceInUp btn btn-xl" >About Me</a>
+          <div class="wow flip intro-heading">A Web Developer and IT Technician</div>
+-->
+          <a href="#portfolio" class="wow bounceInUp btn btn-xl" id="aboutButton">My Projects</a>
         </div>
       </div>
     </header>
@@ -92,8 +98,8 @@
           </div>
           <div class="col-lg-6 mx-auto text-center">
             
-            <p class="text-muted" data-aos="zoom-in-left">I'm an ambitious and hardworking person with<strong> many years of experience on IT services, Office administration and on running my own business</strong>. I'm seeking to undertake web and software programming tasks and challenges, full responsibly, for personal and career development.</p>  
-            <p class="text-muted" data-aos="zoom-in-left">I started coding on Basic and Fortran since I was 9 years old on my first Amstrad CPC 6128 computer. I really enjoy problem solving using statistics and maths. After my completion of Hi-school I picked of course to study ITs and till today my passion for learning new programming languages and technologies in the most rapid growing industry stays imperishable, continuing to gain educational experiences in Open University and JustIT.</p>
+            <p class="text-muted" data-aos="zoom-in-left">I'm an ambitious and hardworking person with<strong> many years of experience on IT services, Office administration, running my own business and last 18 months on Web development</strong>. I'm seeking to undertake web and software programming tasks and challenges, full responsibly, for personal and career development.</p>  
+            <p class="text-muted" data-aos="zoom-in-left">I started coding on Basic and Fortran since I was 9 years old on my first Amstrad CPC 6128 computer. After my completion of High-school I picked of course to study ITs and till today my passion for learning new programming languages and technologies in the most rapid growing industry stays imperishable, continuing to gain educational experiences in the Open University and self-funded development courses.</p>
           </div>
         </div>
           <br><br><br><br><br><br>
@@ -139,7 +145,7 @@
                   <div class="timeline-heading">
                     <h4>2017 to present</h4>
                     <h4 class="subheading">Hermes Development Group, Friern Barnet, London, UK</h4>
-                      <h6>Founder/Developer/Designer/Technician</h6>
+                      <h6>Founder/ Developer/ Designer/ Technician</h6>
                   </div>
                   <div class="timeline-body">
                     <ul>
@@ -158,9 +164,9 @@
                 </div>
                 <div class="timeline-panel L" data-aos="fade-left">
                   <div class="timeline-heading">
-                    <h4>2015 to present</h4>
+                    <h4>2015 to 2018</h4>
                     <h4 class="subheading">The Real Greek Spitalfields Market, London, UK </h4>
-                      <h6>Restaurant Supervisor/Assistant Manager</h6>
+                      <h6>Restaurant Supervisor/ Assistant Manager</h6>
                   </div>
                   <div class="timeline-body">
                    <ul>
@@ -168,7 +174,7 @@
                     <li>Organizing and cooperating front and back of the house to run busy shifts smoothly.</li>
                     <li>Dealing with 'difficult' customers and complaints and solving problems that can occur.</li>
                     <li>Banking and closing daily shifts, reporting and sending numbers and stats to the head office and operations.</li>
-                </ul>
+                   </ul>
                   </div>
                 </div>
               </li>
@@ -180,15 +186,15 @@
                   <div class="timeline-heading">
                     <h4>2012 to 2015</h4>
                     <h4 class="subheading">Park Plaza Sherlock Holmes Hotel, Baker Street, London, UK</h4>
-                      <h6>Food and Beverage department - Head waiter/Supervisor/Trainer</h6>
+                      <h6>Food and Beverage department - Head waiter/ Supervisor/ Trainer</h6>
                   </div>
                   <div class="timeline-body">
                     <ul>
-                    <li>Working at the front of the house of Bar, Restaurant,Room service and Minibar.</li>
-                    <li>Organizing and maintaining and refilling minibars. Testing and replacing broken sensors.</li>
-                    <li>Setting up, supporting and organising Meetings and Events.</li>
-                    <li>Supporting Front Office technically when needed, training F&B newcomers.</li>
-                </ul>
+                        <li>Working at the front of the house. Bar, Restaurant, Room service and Minibar.</li>
+                        <li>Organizing, maintaining and refilling minibars. Testing and replacing broken sensors.</li>
+                        <li>Setting up, supporting and organising Meetings and Events.</li>
+                        <li>Supporting Front Office technically when needed, training F&B newcomers.</li>
+                    </ul>
                   </div>
                 </div>
               </li>
@@ -252,8 +258,11 @@
                 </div>
               </li>
               <li>
-                <div class="timeline-image">
+                <div class="timeline-image popover__wrapper">
                   <a href="NikolaosLiliakidisCV.doc"><img class="wow swing rounded-circle img-fluid" src="img/about/10.png" alt=""></a>
+                    <div class="push popover__content">
+                      <p class="popover__message">Download my CV</p>
+                     </div>
                 </div>
               </li>
             </ul>
@@ -271,44 +280,47 @@
         </div>
           <br><br><br><br>
         <div class="row skImg"> 
-          <div class="col-lg-2 mx-auto text-center">
-            <p id="skImg2"><img class="wow bounceInLeft" src="images/Csharp.png"></p>
+          <div class="col-md-2 mx-auto text-center img-cont">
+            <p id="skImg2"><img class="skills-img wow bounceInLeft" src="images/react-hexagon.png"></p>
           </div>
-          <div class="col-lg-2 mx-auto text-center">
-           <p id="skImg3"><img class="wow bounceInUp" src="images/asp.png"></p>
+          <div class="col-md-2 mx-auto text-center img-cont">
+           <p id="skImg3"><img class="skills-img wow bounceInUp" src="images/bootstrap.png"></p>
           </div>
-          <div class="col-lg-4 mx-auto text-center">
-             <p id="skImg1"><img class="wow bounceInDown" src="images/html.png"></p>
+          <div class="col-md-4 mx-auto text-center img-cont">
+             <p id="skImg1"><img class="skills-img-2 wow bounceInDown" src="images/html.png"></p>
           </div>
-           <div class="col-lg-4 mx-auto text-center">
-           <p id="skImg4"><img class="wow bounceInRight  " src="images/linux.png"></p>
+          <div class="col-md-2 mx-auto text-center img-cont">
+              <p id="skImg2"><img class="skills-img wow bounceInUp" src="images/Csharp.png"></p>
+          </div>
+          <div class="col-md-2 mx-auto text-center img-cont">
+            <p id="skImg3"><img class="skills-img wow bounceInRight" src="images/asp.png"></p>
           </div>
         </div>
           <br><br><br><br>
         <div class="row">
-          <div class="col-lg-4 mx-auto text-center">
+          <div class="col-lg-4 mx-auto text-center skill-box">
             <p><img class="wow jackInTheBox rotate" src="images/com.png"></p>
 				<h2 class="wow tada">Communication</h2>
 				<p class="wow rubberBand">All of my previous working experiences helped me to gain strong and excellent communication skills dealing on a daily basis with clients, coleagues, employers and employees.<br><br> </p>
           </div>
-            <div class="col-lg-4 mx-auto text-center">
+            <div class="col-lg-4 mx-auto text-center skill-box">
             <p><img class="wow jackInTheBox rotate" src="images/team.png"></p>
 				<h2 class="wow tada">Team Work</h2>
 				<p class="wow rubberBand">Working in a team, collaborating and supporting each other is always a MUST in any serious business. For me is also a big plessure working and cooperating with teamates.<br><br></p>
           </div>
-            <div class="col-lg-4 mx-auto text-center">
+            <div class="col-lg-4 mx-auto text-center skill-box">
             <p><img class="wow jackInTheBox rotate" src="images/logic.png"></p>
 				<h2 class="wow tada">Logical Thinker</h2>
 				<p class="wow rubberBand">Logical thinking is an essential skill that helping me solving problems, technical or in everyday life. Almost always, analysis and maths are taking part in my ways of problem solving.<br><br></p>
           </div>
         </div>
           <div class="row">
-          <div class="col-lg-6 mx-auto text-center">
+          <div class="col-lg-6 mx-auto text-center skill-box">
             <p><img class="wow jackInTheBox rotate" src="images/atten.png"></p>
 				<h2 class="wow tada">Attention to detail</h2>
 				<p class="wow rubberBand">There is always something that we can be changed to improve our work or even ourselves. Observation, patience and self-awareness can help us to find small details that can make the difference.<br><br></p>
           </div>
-          <div class="col-lg-6 mx-auto text-center">
+          <div class="col-lg-6 mx-auto text-center skill-box">
             <p><img class="wow jackInTheBox rotate" src="images/org.png"></p>
 				<h2 class="wow tada">Organization<br></h2>
 				<p class="wow rubberBand">Organization is always a MUST in my everyday life. Even has to do with my job, most of the times, or with my personal life I try to keep things tidy, also to think and plan before act.<br><br></p>
@@ -356,145 +368,187 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 portfolio-item">
-            <div class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <div class="col-md-6 portfolio-item">
+            <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000"data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-                 <img class="img-fluid" src="img/portfolio/Project3-thumbnail.png" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="5000" alt="">
+                 <img class="img-fluid" src="img/portfolio/Project-Intellibrain-thumbnail.png" alt="Intellibrain">
             </div>
             <div class="portfolio-caption">
-              <h4>Premier League Hub</h4>
-              <p class="text-muted">For Football Fans</p>
+              <h4>Intellibrain</h4>
+              <p class="text-muted">A.I Face Detection</p>
             </div>
           </div>
             
-             <div class="col-lg-6 portfolio-item">
-            <div class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+             <div class="col-md-6 portfolio-item">
+            <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/Project2-thumbnail.png" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="5000" alt="">
+              <img class="img-fluid" src="img/portfolio/Project-ElectroArtists-thumbnail.png" alt="Top Electro Artists">
             </div>
             <div class="portfolio-caption">
-              <h4>Rare Vinyls</h4>
-              <p class="text-muted">For Music Lovers and DJs</p>
+              <h4>Top Electro Artists</h4>
+              <p class="text-muted">For Electronic and Modern Music Lovers</p>
             </div>
           </div>
         </div>
+
           
           <div class="row">
-           <div class="col-lg-6 portfolio-item">
-            <div class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+           <div class="col-md-6 portfolio-item">
+            <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal9">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-             <img class="img-fluid" src="img/portfolio/Project1-thumbnail.png" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="5000" alt="">
+             <img class="img-fluid" src="img/portfolio/Project-ViewTube-thumbnail.png" alt="View Tube">
             </div>
             <div class="portfolio-caption">
-              <h4>Discount Calculator</h4>
-              <p class="text-muted">For hospitality</p>
+              <h4>View Tube</h4>
+              <p class="text-muted">Search your favorite videos</p>
             </div>
           </div>
               
-              <div class="col-lg-6 portfolio-item">
-            <div class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+          <div class="col-md-6 portfolio-item">
+              <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal3">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
                 </div>
+               <img class="img-fluid" src="img/portfolio/Project3-thumbnail.png" alt="Premier Hub">
               </div>
-              <img class="img-fluid" src="img/portfolio/Project4-thumbnail.png" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="5000" alt="">
+              <div class="portfolio-caption">
+                <h4>Premier League Hub</h4>
+                <p class="text-muted">For Football Fans</p>
+              </div>
             </div>
-            <div class="portfolio-caption">
-              <h4>Hermes Development Group</h4>
-              <p class="text-muted">Commercial Web Page</p>
-            </div>
-          </div>
         </div>  
+
           
           <div class="row">
-            <div class="col-lg-6 portfolio-item">
-            <div class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="col-md-6 portfolio-item">
+            <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/Project5-thumbnail.png" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="5000" alt="">
+              <img class="img-fluid" src="img/portfolio/Project-GithubUserFinder-thumbnail.png" alt="Github User Finder">
             </div>
             <div class="portfolio-caption">
-              <h4>Soltas Bread and Coffee</h4>
-              <p class="text-muted">Commercial Web Page</p>
+              <h4>Github User Finder</h4>
+              <p class="text-muted">Search for Users and their repos in Github</p>
             </div>
-          </div>    
-<!--
-          <div class="col-lg-6 portfolio-item">
-            <div class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+          </div>          
+        
+          <div class="col-md-6 portfolio-item">
+              <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal10">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-plus fa-3x"></i>
+                  </div>
                 </div>
+                <img class="img-fluid" src="img/portfolio/GPCR-thumbnail.png" alt="Green PC Reairs">
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="4000" alt="">
-            </div>
-            <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
-            </div>
-          </div>
-          <div class="col-lg-6 portfolio-item">
-            <div class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
+              <div class="portfolio-caption">
+                <h4>Green PC Repairs</h4>
+                <p class="text-muted">Technical and Web Services</p>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="3000" alt="">
             </div>
-            <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
-            </div>
-          </div>
-          <div class="col-lg-6 portfolio-item">
-            <div class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000" alt="">
-            </div>
-            <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
-            </div>
--->
-          
         </div>
+
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+            <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal7">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Project-ProfileScroller-thumbnail.png" alt="Profile Scroller">
+            </div>
+            <div class="portfolio-caption">
+              <h4>Profile Scroller</h4>
+              <p class="text-muted">Search between random user profiles</p>
+            </div>
+          </div>          
+        
+            <div class="col-md-6 portfolio-item">
+            <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal8">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/Project-SongListCreator-thumbnail.png" alt="Song List Creator">
+            </div>
+            <div class="portfolio-caption">
+              <h4>Song List Creator</h4>
+              <p class="text-muted">Create a list of songs you want to remember</p>
+            </div>
+          </div>          
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal6">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="img/portfolio/Project-LoanCalculator-thumbnail.png" alt="Loan Calculator">
+                </div>
+                <div class="portfolio-caption">
+                  <h4>Loan Calculator</h4>
+                  <p class="text-muted">Calculate the montly payment and the total amount of interest</p>
+                </div>
+              </div>          
+               
+               <div class="col-md-6 portfolio-item">
+             <div class="portfolio-link" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="5000" data-toggle="modal" href="#portfolioModal4">
+               <div class="portfolio-hover">
+                 <div class="portfolio-hover-content">
+                   <i class="fa fa-plus fa-3x"></i>
+                 </div>
+               </div>
+               <img class="img-fluid" src="img/portfolio/Project-Tracalor-thumbnail.png" alt="Tracalor">
+             </div>
+             <div class="portfolio-caption">
+               <h4>Tracalor</h4>
+               <p class="text-muted">Track your recieving calories through nutrition</p>
+             </div>
+           </div>
+         </div>  
+
      </div>
     </section>
 
@@ -511,7 +565,7 @@
         <div class="row">
           <div class="col-lg-12">
               
-            <form method="post" class="form-horizontal" name="sentMessage" id="contactForm" action="contact_me.php">
+            <form class="form-horizontal" name="sentMessage" id="contactForm" >
               <div class="row">
                 <div class="col-md-6 flex-item">
                   <div class="form-group" data-aos="fade-up"
@@ -535,31 +589,28 @@
                </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
-
-
-                     <div id="success"></div> 
-                  <button  type="submit" id="submitButton" name="submitButton" class="btn btn-xl" data-aos="fade-up"
-                    data-aos-anchor-placement="bottom-bottom">Send message
-                    </button>
+                    <div id="success"></div>
+                  <button type="submit" id="submitButton" name="submitButton" class="btn btn-xl" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom" >Send Message</button>
                  </div>
             </form>
     
                     <br><br><br><br>
-                    <div class="row text-center">               
-                    <div class="col-md-3">
+                    <div class="row text-center contact-icon-container">               
+                    <div class="col-sm-3 contact-icon">
                     <i onmouseover="myPhoneFunction()" class="fa fa-phone fa-4x" data-aos="flip-down"></i><br>
                     
                     </div> 
-                    <div class="col-md-3">  
+                    <div class="col-sm-3 contact-icon">  
                     <i onmouseover="myEmailFunction()" class="fa fa-envelope fa-4x" data-aos="flip-down"></i><br>
                     
                     </div> 
-                    <div class="col-md-3">
+                    <div class="col-sm-3 contact-icon">
                     <a href="https://github.com/nicklils" target="_blank">
                     <i class="fa fa-github fa-4x" data-aos="flip-down"></i>
                     </a>
                     </div> 
-                    <div class="col-md-3">
+                    <div class="col-sm-3 contact-icon">
                     <a href="https://www.linkedin.com/in/nikolaos-liliakidis-820a7236/" target="_blank">
                     <i class="fa fa-linkedin fa-4x" data-aos="flip-down"></i>
                     </a>
@@ -583,7 +634,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <span class="copyright">Copyright &copy; Nikolaos Liliakidis 2017</span>
+            <span class="copyright">Copyright &copy; Nikolaos Liliakidis</span>&nbsp;<span class="copyright" id="copyright"></span>
           </div>
          
           <div class="col-md-6">
@@ -602,8 +653,8 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -616,26 +667,25 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="section-heading">Discount Calculator</h2>
-                  <p class="item-intro text-muted">Restaurant's Daily Offers and Discounts Calculator</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project1.png" alt="">
-                  <p>This app allows the user to select the current day, quantities of drink and food items categorized by its prices and also if the customers has discountable cards like student's NUS or NHS/Police/Fire-dept workers. When the user applies for the discounted price pressing the calculation button it calculates the final price, amount discounted and initial price according the daily offer requirements and the customer's discount cards.  </p>
+                  <h2 class="section-heading">Intellibrain</h2>
+                  <p class="item-intro text-muted">Detects faces on images!</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project-Intellibrain.png" alt="Intellibrain">
+                  <p>This is a full-stack app whick allows the user to submit an image URL and detects the faces that exist on the image using an API called Clarifai face detection model. There is login and register functionality thus there are a database and a back-end server that allows the communication with the front-end.</p>
                     <br>
-                   <h6>Used Technologies</h6>
+                   <h6>Basic Used Technologies</h6>
                   <ul class="list-inline">
-                    <li>C#</li>
-                    <li>Asp.NET</li>
+                    <li>JavaScript/React.js</li>
+                    <li>JSX</li>
                     <li>HTML/CSS</li>
-                    <li>Bootstrap</li>
-                    <li>Jquery</li>
+                    <li>Node.js/Express</li>
+                    <li>PostgreSQL</li>
                   </ul>
-                 <a href="http://discountcalc.nikolaosliliakidis.co.uk/" target="_blank"><button class="btn btn-primary" type="button">
+                 <a href="https://nicklils.github.io/Intellibrain/" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
                     Live Demo</button></a>
-                     <a href="https://github.com/nicklils/Discount-Calc-Project" target="_blank"><button class="btn btn-primary" type="button">
+                     <a href="https://github.com/nicklils/Intellibrain/tree/gh-pages" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
-                    Code via Github</button></a>
-                    
+                    Code via Github</button></a>               
                 </div>
               </div>
             </div>
@@ -658,28 +708,25 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="section-heading">Rare Vinyls</h2>
-                  <p class="item-intro text-muted">Sale or Buy rare vinyls for a reasonable price.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project2.png" alt="">
-                  <p>This web app allows the users to search, find or upload information about rare vinyl editions which is looking to buy or sell, from or to other individuals.It contains a single-table database and provide (Create Read Update Delete) record functionality to the user. </p>
+                  <h2 class="section-heading">Top Elecro Artists</h2>
+                  <p class="item-intro text-muted">Search information about the best artists and DJs on electronic and modern music genres.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project-ElectroArtists.png" alt="Electro Artists">
+                  <p>This web app allows the users to submit search queries based on their preferable artist's names or Genres finding information and links to listen and buy their latest, and not only, releases. Fetches data from an uploaded on a web server json file through and API call.</p>
                     <br>
-                   <h6>Used Technologies</h6>
+                   <h6>Basic Used Technologies</h6>
                   <ul class="list-inline">
-                    <li>MVC Razor</li>  
-                    <li>C#</li>
-                    <li>Asp.NET</li>
-                    <li>SQL</li>
+                    <li>JavaScript/React.js</li>
+                    <li>JSX</li>
                     <li>HTML/CSS</li>
                     <li>Bootstrap</li>
-                    <li>Jquery</li>
+                    <li>API/JSON</li>
                   </ul>
-                  <a href="http://rarevinyls.nikolaosliliakidis.co.uk/" target="_blank"><button class="btn btn-primary" type="button">
+                  <a href="https://nicklils.github.io/Top-Electro-Artists/" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
                     Live Demo</button></a>
-                     <a href="https://github.com/nicklils/Rare-Vinyls-Project" target="_blank"><button class="btn btn-primary" type="button">
+                     <a href="https://github.com/nicklils/Top-Electro-Artists" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
-                    Code via Github</button></a>
-                    
+                    Code via Github</button></a>                  
                 </div>
               </div>
             </div>
@@ -688,8 +735,8 @@
       </div>
     </div>
 
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -703,16 +750,16 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2 class="section-heading">Premier Hub</h2>
-                  <p class="item-intro text-muted">Find loads of info about all the upcoming and finished matches of Premier's League 2017-18.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project3.png" alt="">
-                  <p>This web application presents useful information about all the upcoming and finished Premier League’s 2017-18 Matches. The user can watch also pictures of Stadiums, Final Scores, Match highlights, Livescores, Table and Top Scorers links. It contains a multi-table database and provide (Create Read Update Delete) record functionality to the user.  </p>
+                  <p class="item-intro text-muted">Find loads of info about all the upcoming and finished matches of Premier League.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project3.png" alt="Premier Hub">
+                  <p>This web application presents useful information about all the upcoming and finished Premier League’s  Matches. The user can watch also pictures of Stadiums, Final Scores, Match highlights, Livescores, Table and Top Scorers links. It contains a multi-table database and provide (Create Read Update Delete) record functionality to the user.  </p>
                     <br>
-                   <h6>Used Technologies</h6>
+                   <h6>Basic Used Technologies</h6>
                   <ul class="list-inline">
                     <li>MVC Razor</li>  
                     <li>C#</li>
                     <li>Asp.NET</li>
-                    <li>SQL</li>
+                    <li>SQLServer</li>
                     <li>HTML/CSS</li>
                     <li>Bootstrap</li>
                     <li>Jquery</li>
@@ -722,8 +769,7 @@
                     Live Demo</button></a>
                      <a href="https://github.com/nicklils/PremierHub" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
-                    Code via Github</button></a>
-                    
+                    Code via Github</button></a>                   
                 </div>
               </div>
             </div>
@@ -746,21 +792,22 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="section-heading">Hermes Development Group</h2>
-                  <p class="item-intro text-muted">Adverstisment Website</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project4.png" alt="">
-                  <p>This is an advertisement Webpage for a company based on Web design, deveolpment and technical consulting. </p>
+                  <h2 class="section-heading">Tracalor</h2>
+                  <p class="item-intro text-muted">Calories tracking calculator.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project-Tracalor.png" alt="Tracalor">
+                  <p>This is an application developed using the JavaScript Module Pattern and uses a lot of DOM manipulation. It allows the user to calculate the number of calories through the meals that have consumed and store in the local storage. So in case of the user close or refresh the browser window the data is stored and rerendered till get deleted from the user on the UI. </p>
                     <br>
-                   <h6>Used Technologies</h6>
+                   <h6>Basic Used Technologies</h6>
                   <ul class="list-inline">                   
-                    <li>HTML/CSS</li>
-                    <li>Bootstrap</li>
-                    <li>Javascript/Jquery</li>
+                    <li>Javascript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Materialize</li>
                   </ul>
-                  <a href="http://hermesdevgroup.co.uk/" target="_blank"><button class="btn btn-primary" type="button">
+                  <a href="https://nicklils.github.io/CaloriesTracker/" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
                     Live Demo</button></a>
-                     <a href="https://github.com/nicklils/HermesDevGroup" target="_blank"><button class="btn btn-primary" type="button">
+                     <a href="https://github.com/nicklils/CaloriesTracker" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
                     Code via Github</button></a>
                     
@@ -788,21 +835,22 @@
                   <!-- Project Details Go Here -->
                    <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="section-heading">Soltas Bread and Coffee</h2>
-                  <p class="item-intro text-muted">Adverstisment Website</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project5.png" alt="">
-                  <p>This is an advertisement Webpage for a bakery, coffee and off-license store based in the city of Thessaloniki, Central Macedonia, Greece. </p>
+                  <h2 class="section-heading">Github User Finder</h2>
+                  <p class="item-intro text-muted">Search for Github Users and their repositories</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project-GithubUserFinder.png" alt="Github User Finder">
+                  <p>This JavaScript app allows the user to search using Github's REST API and find Github users and their latest repositories. Fetches data asyncronously making 2 API requests one for the user profile and one for the user repositories. </p>
                     <br>
-                   <h6>Used Technologies</h6>
+                   <h6>Basic Used Technologies</h6>
                   <ul class="list-inline">                   
+                    <li>Javascript</li>
                     <li>HTML/CSS</li>
                     <li>Bootstrap</li>
-                    <li>Javascript/Jquery</li>
+                    <li>API/JSON</li>
                   </ul>
-                  <a href="http://soltasbreadncoffee.com/" target="_blank"><button class="btn btn-primary" type="button">
+                  <a href="https://nicklils.github.io/GitHubUserFinder/" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
                     Live Demo</button></a>
-                     <a href="https://github.com/nicklils/SoltasBreadCoffee" target="_blank"><button class="btn btn-primary" type="button">
+                     <a href="https://github.com/nicklils/GitHubUserFinder" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
                     Code via Github</button></a>
                 </div>
@@ -814,9 +862,8 @@
     </div>
   </div>
 
-
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -829,18 +876,25 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2>Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                   <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="section-heading">Loan Calculator</h2>
+                  <p class="item-intro text-muted">Calculate monthly payments and total amount of interest</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project-LoanCalculator.png" alt="Loan Calculator">
+                  <p>This JavaScript app allows the user to input values of loan amount, interest precentage and repayment length in years and calculates the monthly payment and the total amount of interest using math algorithms.</p>
+                    <br>
+                   <h6>Basic Used Technologies</h6>
+                  <ul class="list-inline">                   
+                    <li>Javascript</li>
+                    <li>HTML/CSS</li>
+                    <li>Bootstrap</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <a href="https://nicklils.github.io/LoanCalculator/" target="_blank"><button class="btn btn-primary" type="button">
                     <i class="fa fa-times"></i>
-                    Close Project</button>
+                    Live Demo</button></a>
+                     <a href="https://github.com/nicklils/LoanCalculator" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Code via Github</button></a>
                 </div>
               </div>
             </div>
@@ -848,6 +902,221 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Modal 7 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                   <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="section-heading">Profile Scroller</h2>
+                  <p class="item-intro text-muted">Search between random user profiles.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project-ProfileScroller.png" alt="Profile Scroller">
+                  <p>This JavaScript app uses a free random user generator API and displays on the screen random fake user profiles and allows the user to press a button and move to the nest profile.</p>
+                    <br>
+                   <h6>Basic Used Technologies</h6>
+                  <ul class="list-inline">                   
+                    <li>Javascript</li>
+                    <li>HTML/CSS</li>
+                    <li>Bootstrap</li>
+                    <li>API/JSON</li>
+                  </ul>
+                  <a href="https://nicklils.github.io/ProfileScroller/" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Live Demo</button></a>
+                     <a href="https://github.com/nicklils/ProfileScroller" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Code via Github</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                   <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="section-heading">Song List Creator</h2>
+                  <p class="item-intro text-muted">Create a list of songs you want to remember.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project-SongListCreator.png" alt="Song List Creator">
+                  <p>This JavaScript app allows the user to create a list of songs and stores the list in the local storage. So in case of the user close or refresh the browser window the data is stored and rerendered till get deleted from the user on the UI.</p>
+                    <br>
+                   <h6>Basic Used Technologies</h6>
+                  <ul class="list-inline">                   
+                    <li>Javascript</li>
+                    <li>HTML/CSS</li>
+                    <li>Skeleton</li>
+                  </ul>
+                  <a href="https://nicklils.github.io/SongList-Creator/" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Live Demo</button></a>
+                     <a href="https://github.com/nicklils/SongList-Creator" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Code via Github</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 9 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                   <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="section-heading">View Tube</h2>
+                  <p class="item-intro text-muted">Search and watch your favorite videos.</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/Project-ViewTube.png" alt="View Tube">
+                  <p>This React app allows the user to search and watch videos in a nice and relaxing UI. It makes an API call to google-youtube API to fetch the list of videos.</p>
+                    <br>
+                   <h6>Basic Used Technologies</h6>
+                  <ul class="list-inline">                   
+                      <li>JavaScript/React.js</li>
+                      <li>JSX</li>
+                      <li>HTML/CSS</li>
+                      <li>Semantic UI</li>
+                      <li>API/JSON</li>
+                  </ul>
+                  <a href="https://view--tube.herokuapp.com/" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Live Demo</button></a>
+                     <a href="https://github.com/nicklils/ViewTube" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Code via Github</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 10 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                   <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="section-heading">Green PC Repairs</h2>
+                  <p class="item-intro text-muted">Technical and Web Services</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/GPCR.png" alt="Green PC Repairs">
+                  <p>This is a commercial IT business Web page.</p>
+                    <br>
+                   <h6>Basic Used Technologies</h6>
+                  <ul class="list-inline">                   
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                  <a href="https://nicklils.github.io/GreenPcRepairs/#footer" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Live Demo</button></a>
+                     <a href="https://github.com/nicklils/GreenPcRepairs" target="_blank"><button class="btn btn-primary" type="button">
+                    <i class="fa fa-times"></i>
+                    Code via Github</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal 2 -->
+   <!-- <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body"> -->
+                <!-- Project Details Go Here -->
+                <!-- <h2 class="section-heading">Rare Vinyls</h2>
+                <p class="item-intro text-muted">Sale or Buy rare vinyls for a reasonable price.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/Project2.png" alt="">
+                <p>This web app allows the users to search, find or upload information about rare vinyl editions which is looking to buy or sell, from or to other individuals.It contains a single-table database and provide (Create Read Update Delete) record functionality to the user. </p>
+                  <br>
+                 <h6>Basic Used Technologies</h6>
+                <ul class="list-inline">
+                  <li>MVC Razor</li>  
+                  <li>C#</li>
+                  <li>Asp.NET</li>
+                  <li>SQL</li>
+                  <li>HTML/CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Jquery</li>
+                </ul>
+                <a href="http://rarevinyls.nikolaosliliakidis.co.uk/" target="_blank"><button class="btn btn-primary" type="button">
+                  <i class="fa fa-times"></i>
+                  Live Demo</button></a>
+                   <a href="https://github.com/nicklils/Rare-Vinyls-Project" target="_blank"><button class="btn btn-primary" type="button">
+                  <i class="fa fa-times"></i>
+                  Code via Github</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
