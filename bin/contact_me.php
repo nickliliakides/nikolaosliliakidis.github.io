@@ -1,7 +1,7 @@
 <?php
 //email settings
-ini_set('SMTP','mailout.one.com');
-ini_set('smtp_port','25');
+ini_set('SMTP','smtp.gmail.com');
+ini_set('smtp_port','587');
 //ini_set('verify_peer','false');
  
 // check if fields passed are empty
