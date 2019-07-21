@@ -41,11 +41,19 @@ video {
   opacity: 0.5;
 }
 
-/*
-#bgvid {
-    height: 100vh;
+button, a {
+  cursor: pointer;
 }
-*/
+
+button:active, a:active, {
+  outline: none !important;
+  border: none !important;
+}
+
+button:focus, a:focus {
+  outline: none !important;
+  border: none !important;
+}
 
 #aboutMe {
   border: 4px solid darkred;
