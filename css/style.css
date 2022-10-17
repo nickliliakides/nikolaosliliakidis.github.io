@@ -41,16 +41,19 @@ video {
   opacity: 0.5;
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
 }
 
-button:active, a:active, {
+button:active,
+a:active {
   outline: none !important;
   border: none !important;
 }
 
-button:focus, a:focus {
+button:focus,
+a:focus {
   outline: none !important;
   border: none !important;
 }
@@ -99,7 +102,7 @@ button:focus, a:focus {
   font-size: 52px;
   font-weight: 700;
   /*    margin-bottom: 25px;*/
-  font-family: 'Droid Serif', Arial, sans-serif;
+  font-family: "Droid Serif", Arial, sans-serif;
   text-shadow: 2px 2px #e69c11;
   text-decoration: none;
 }
@@ -109,7 +112,7 @@ button:focus, a:focus {
 }
 
 .popover__title {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   line-height: 36px;
   text-decoration: none;
@@ -142,7 +145,7 @@ button:focus, a:focus {
 .popover__content:before {
   position: absolute;
   z-index: -1;
-  content: '';
+  content: "";
   right: calc(50% - 10px);
   top: -8px;
   border-style: solid;
@@ -216,7 +219,7 @@ button:focus, a:focus {
 }
 
 .section-heading {
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   text-shadow: 2px 2px #b8b894;
 }
 
